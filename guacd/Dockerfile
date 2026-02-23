@@ -1,3 +1,4 @@
+#-----------------Stage builder
 FROM ubuntu:22.04 AS builder
 ARG DEBIAN_FRONTEND=noninteractive
 
@@ -20,6 +21,7 @@ RUN tar -xf guacamole-server-1.5.5-douran.tar.gz \
   && make install \
   && ldconfig
 
+#-----------------Stage Runtime
 FROM ubuntu:22.04
 ARG DEBIAN_FRONTEND=noninteractive
 
