@@ -12,6 +12,9 @@ In second container we install prerequisites which are needed for guacamole-serv
 
 # Files Version:
 Apache guacamole server 1.5.5
+
 Apache guacamole client 1.5.5
+
 Mysql 8.0
+
 JDBC 1.5.3
